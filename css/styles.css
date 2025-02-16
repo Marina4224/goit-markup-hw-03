@@ -183,7 +183,8 @@ font-weight: 400;
 /* #endregion block */
 
 /* #region team */
-.team section {background-color: #F4F4FD;}
+
+.team {background-color: #F4F4FD;}
 .team-title {
     font-weight: 700;
     font-size: 36px;
