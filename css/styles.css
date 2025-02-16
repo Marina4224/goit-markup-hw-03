@@ -108,9 +108,13 @@ align-items: center;
 
 }
 /* #region hero */
-.hero {background-color: #2e2f42;}
 
-.block section {padding: 188px 0;}
+
+.hero-section {padding: 188px 0;
+background-color: #2e2f42;
+max-width: 1158px;
+    margin: 0 auto
+}
 
 .hero-title {margin: 0 auto;
     max-width: 496px;
@@ -181,13 +185,7 @@ font-weight: 400;
 /* #endregion block */
 
 /* #region team */
-.team {
-    max-width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin: 0 auto;
-    background-color: #F4F4FD}
-.team section {padding: 120px 0;}
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
