@@ -17,7 +17,6 @@ margin-bottom: 0;
 padding-left: 0;}
 
 img {display: block;
-margin-bottom: 32px;
 max-width: 100%;
 height: auto;}
 
@@ -67,7 +66,7 @@ font-family: Roboto, sans-serif;}
     .nav-header-list {display: flex;
     align-items: center;
 gap: 40px;
-padding: 24px 0;
+
 }
 
  
@@ -112,13 +111,12 @@ align-items: center;
 
 .hero-section {padding: 188px 0;
 background-color: #2e2f42;
-max-width: 1158px;
-    margin: 0 auto
 }
 
-.hero-title {margin: 0 auto;
+.hero-title {
+    margin: 0 auto;
     max-width: 496px;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
     font-weight: 700;
     font-size: 56px;  
     line-height: 1.07;
@@ -185,7 +183,7 @@ font-weight: 400;
 /* #endregion block */
 
 /* #region team */
-
+.team section {background-color: #F4F4FD;}
 .team-title {
     font-weight: 700;
     font-size: 36px;
