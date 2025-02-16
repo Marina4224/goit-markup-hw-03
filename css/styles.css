@@ -110,7 +110,7 @@ align-items: center;
 /* #region hero */
 .hero {background-color: #2e2f42;}
 
-.hero section {padding: 188px 0}
+.block section {padding: 188px 0;}
 
 .hero-title {margin: 0 auto;
     max-width: 496px;
@@ -187,7 +187,7 @@ font-weight: 400;
         padding-right: 15px;
         margin: 0 auto;
     background-color: #F4F4FD}
-
+.team section {padding: 120px 0;}
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -257,21 +257,16 @@ border-radius: 0 0 4px 4px;}
 
 /* #endregion footer */
 .footer {
-    padding: 100px 0;
-    
-    display: block;
+        display: block;
     box-sizing: border-box;
     max-width: 100%;
-    
     border-bottom: 1px solid #e7e9fc;
-    align-items: center;
-    
-        
-}
+    align-items: center;}
+
+.footer {padding: 100px 0;}
 
 .footer-title {
-    margin-top: 100px;
-    margin-bottom: 16px;
+        margin-bottom: 16px;
    
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -286,8 +281,7 @@ border-radius: 0 0 4px 4px;}
     color: #f4f4fd;}
 
 .footer-text {
-    padding-bottom: 100px;
-    max-width: 264px;
+        max-width: 264px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
